@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "maceenchant",
+  "version": "1.0.0",
+  "name": "Mace Enchantment Mod",
+  "description": "Adds a custom Skyfall enchantment to maces.",
+  "authors": ["Kevin"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["net.kevin.maceenchant.MaceEnchantMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.21"
+  }
+}
